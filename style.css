@@ -1,0 +1,126 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1b1710; /* Fondo negro */
+  color: #ffffff; /* Texto blanco */
+}
+
+/* Encabezado */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000; /* Fondo de la cabecera */
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-left img {
+  width: 150px; /* Tamaño del logo izquierdo */
+  height: auto;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-icons .icon {
+  height: auto; 
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.nav-icons .icon:hover {
+  transform: scale(1.2); /* Efecto hover */
+  opacity: 0.8;
+}
+
+/* Tamaño individual de los iconos */
+.icon-cart {
+  width: 22.5px; /* Tamaño del ícono carrito */
+}
+
+.icon-profile {
+  width: 18px; /* Tamaño del ícono perfil */
+}
+
+.icon-search {
+  width: 20px; /* Tamaño del ícono buscar */
+}
+
+.icon-menu {
+  width: 20px; /* Tamaño del ícono menú */
+}
+
+/* Contenido principal */
+.main-content {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #000000; /* Fondo del contenido principal */
+  padding: 55px 0;
+}
+
+.logo-central {
+  width: 250px; /* Tamaño del logo central */
+  height: auto;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.logo-central:hover {
+  transform: scale(1.1); /* Efecto hover en el logo central */
+}
+
+.icon-below {
+  width: 350px; /* Tamaño del ícono debajo */
+  height: auto;
+  margin: 20px auto 0;
+  display: block; /* Centrado */
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.icon-below:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+/* Galería */
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.gallery-image {
+  width: 30%; /* Cada imagen ocupa el 30% del ancho disponible */
+  height: auto;
+  border-radius: 5px; /* Bordes redondeados */
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1); /* Efecto hover */
+  opacity: 0.9;
+}
+
+/* Pie de página */
+.footer {
+  background-color: #1b1710; /* Color por defecto del pie */
+  text-align: center;
+  padding: 2px 0;
+}
+
+.footer-icon {
+  width: 70px; /* Tamaño del ícono en el pie */
+  height: auto;
+  cursor: pointer; /* Ícono cliqueable */
+}
