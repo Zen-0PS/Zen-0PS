@@ -23,13 +23,13 @@ body {
 }
 
 .logo-left img {
-  width: 150px; /* Tamaño del logo izquierdo */
+  width: 350px; /* Tamaño del logo izquierdo */
   height: auto;
 }
 
 .nav-icons {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
 .nav-icons .icon {
@@ -44,19 +44,19 @@ body {
 
 /* Tamaño individual de los iconos */
 .icon-cart {
-  width: 22.5px; /* Tamaño del ícono carrito */
+  width: 42.5px; /* Tamaño del ícono carrito */
 }
 
 .icon-profile {
-  width: 18px; /* Tamaño del ícono perfil */
+  width: 38px; /* Tamaño del ícono perfil */
 }
 
 .icon-search {
-  width: 20px; /* Tamaño del ícono buscar */
+  width: 40px; /* Tamaño del ícono buscar */
 }
 
 .icon-menu {
-  width: 20px; /* Tamaño del ícono menú */
+  width: 40px; /* Tamaño del ícono menú */
 }
 
 /* Contenido principal */
@@ -68,7 +68,7 @@ body {
 }
 
 .logo-central {
-  width: 250px; /* Tamaño del logo central */
+  width: 350px; /* Tamaño del logo central */
   height: auto;
   margin-bottom: 20px;
   transition: transform 0.3s;
@@ -79,7 +79,7 @@ body {
 }
 
 .icon-below {
-  width: 350px; /* Tamaño del ícono debajo */
+  width: 550px; /* Tamaño del ícono debajo */
   height: auto;
   margin: 20px auto 0;
   display: block; /* Centrado */
@@ -101,7 +101,7 @@ body {
 }
 
 .gallery-image {
-  width: 30%; /* Cada imagen ocupa el 30% del ancho disponible */
+  width: 20%; /* Cada imagen ocupa el 30% del ancho disponible */
   height: auto;
   border-radius: 5px; /* Bordes redondeados */
   transition: transform 0.3s, opacity 0.3s;
@@ -120,7 +120,7 @@ body {
 }
 
 .footer-icon {
-  width: 70px; /* Tamaño del ícono en el pie */
+  width: 90px; /* Tamaño del ícono en el pie */
   height: auto;
   cursor: pointer; /* Ícono cliqueable */
 }
